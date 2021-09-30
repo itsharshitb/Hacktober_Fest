@@ -1,0 +1,107 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadein;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.app__header{
+    background: #90e0ef;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.fx{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max__width{
+    width: 100%;
+    max-width: 520px;
+}
+
+.app__body{
+    width: 100%;
+}
+
+.fd-c{
+    flex-direction: column !important;
+    overflow-y: scroll;
+    max-height: 81vh;
+    scrollbar-width: 3px;
+    margin: 10px auto;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #036991;    
+    border-radius: 50px;
+}
+
+.startup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.goaway{
+    animation-name: fade;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade{
+    from{
+        opacity: 1;
+        z-index: 100;
+    }
+    to{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+h1 > p{
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background: #000;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
