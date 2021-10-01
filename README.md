@@ -284,4 +284,9 @@ Uber open source project info
 
 A blazing fast & offline web playground in your browser.
 
+### 27. [VueJS](https://v3.vuejs.org/)
+
+Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces.
+
+
 ### 11. [Initial Project](https://github.com/alwibastomi/ProjekAwal)
