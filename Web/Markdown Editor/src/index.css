@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.center-div {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+.left-side,
+.right-side {
+  height: 80vh;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.left-side {
+  background-color: black;
+  color: white;
+}
+
