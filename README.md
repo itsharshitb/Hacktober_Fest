@@ -288,5 +288,5 @@ A blazing fast & offline web playground in your browser.
 
 Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces.
 
-
-### 11. [Initial Project](https://github.com/alwibastomi/ProjekAwal)
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/harshitbhatt"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="harshitbhatt" /></a></p><br><br>
